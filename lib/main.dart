@@ -41,13 +41,13 @@ class MyApp extends StatelessWidget {
               tooltip: 'Twitter',
             ),
             IconButton(
-              icon: FaIcon(FontAwesomeIcons.code),
+              icon: Icon(Icons.code),
               onPressed: () {
                 _launchURL(_githubUrl);
               },
             ),
             IconButton(
-              icon: FaIcon(FontAwesomeIcons.envelope),
+              icon: Icon(Icons.mail),
               onPressed: () {},
             ),
           ],
