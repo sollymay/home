@@ -6,6 +6,7 @@ import './layouts/wide_layout.dart';
 
 const _twitterUrl = 'https://twitter.com/sollymay';
 const _githubUrl = 'https://github.com/sollymay';
+const _mailUrl = 'mailto:sollymay@gmail.com';
 void main() {
   runApp(MyApp());
 }
@@ -48,7 +49,9 @@ class MyApp extends StatelessWidget {
             ),
             IconButton(
               icon: Icon(Icons.mail),
-              onPressed: () {},
+              onPressed: () {
+                _launchURL(_mailUrl);
+              },
             ),
           ],
         ),
