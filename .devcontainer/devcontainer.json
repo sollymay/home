@@ -1,5 +1,5 @@
 {
-  "image": "cirrusci/flutter:latest",
+  "image": "fischerscode/flutter:stable",
   "forwardPorts": [
     3000,
     5037
